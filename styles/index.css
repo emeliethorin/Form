@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: darkgoldenrod;
+    background-color: salmon;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -14,11 +14,11 @@ h1 {
 }
 form {
     display: flex;
+    background-color: lightblue;
     flex-direction: column;
     gap: 10px;
     height: 650px;
     min-width: 450px;
-    background: white;
     padding: 30px;
     border-radius: 4px;
     margin: 0px;
@@ -60,7 +60,7 @@ button {
     padding: 10px;
     text-align: center;
     border-style: solid;
-    border-color: palevioletred;
+    border-color: white;
     border-radius: 4px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: ease-out 0,3s;
@@ -69,5 +69,5 @@ button {
 }
 
 button:hover {
-    box-shadow: inset 300px 0px 0px 0px palevioletred;
+    box-shadow: inset 300px 0px 0px 0px lightgreen;
 }
