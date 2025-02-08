@@ -9,6 +9,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+img {
+    position: relative;
+    left: 400px;
+    top: 80px;
+}
+
 h1 {
     color: black;
 }
@@ -23,6 +29,7 @@ form {
     padding: 30px;
     border-radius: 4px;
     margin: 0px;
+    margin-bottom: 20px;
 }
 
 input {
