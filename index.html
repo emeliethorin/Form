@@ -11,13 +11,13 @@
 <body>
     <main>
         <form action="">
-            <h1>My form</h1>
+            <h1>Contact form</h1>
             <label for="name" class="label">Full name</label>
             <input type="text" placeholder="Your name" id="name">
             <label for="email" class="label">Email</label>
-            <input type="email" placeholder="Email" required autofocus>
+            <input type="email" placeholder="Email" required>
             <div class="select-wrapper">
-                <label for="select" class="label">What are your favourite sports?</label>
+                <label for="select" class="label">What are your favourite sport?</label>
                 <br>
                 <select name="interests" class="select" id="select">
                 <option value="Football">Football</option>
@@ -30,7 +30,12 @@
             </div>
             <label for="message">Message</label>
             <textarea name="Message" id="" cols="30" rows="10"></textarea>
-        <button type="submit" class="button" disabled>Submit</button>
+            <div class="checkbox-container">
+                <input type="checkbox" class="checkbox" required autofocus>
+                <div class="input-title">I agree to the privacy policy.
+                </div>
+            </div>
+            <button type="submit" class="button" disabled>Submit</button>
         </form>
     </main>
 </body>
