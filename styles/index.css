@@ -2,20 +2,19 @@ body {
     color: black;
     background-color: salmon;
     display: flex;
-    justify-content: center;
-    padding: 10px;
-    position: relative;
-    top: 10px;
+    justify-content: center;  
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
     position: relative;
     left: 400px;
-    top: 80px;
+    top: 300px;
 }
 
-h1 {
+h1, h2 {
     color: black;
 }
 
@@ -25,11 +24,18 @@ form {
     flex-direction: column;
     gap: 10px;
     height: 650px;
-    min-width: 450px;
+    width: 90%;
+    min-width: 300px;
+    max-width: 450px;
     padding: 30px;
     border-radius: 4px;
     margin: 0px;
     margin-bottom: 20px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    max-width: 100%;
 }
 
 input {
@@ -69,17 +75,19 @@ textarea {
 
 .checkbox-container {
     display: flex;
-    margin-bottom: 10px;
+    align-items: center;
 }
 
 .checkbox {
-    position: absolute;
-    left: 450px;
+    position: relative;
+    right: 100px;
+    margin: 10px;
 }
 
-.input-title {
+.checkbox-title {
     position: relative;
-    left: 25px;
+    right: 200px;
+    width: 300px;
 }
 
 button {
