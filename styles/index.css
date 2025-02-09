@@ -3,7 +3,7 @@ body {
     background-color: salmon;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     position: relative;
     top: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
